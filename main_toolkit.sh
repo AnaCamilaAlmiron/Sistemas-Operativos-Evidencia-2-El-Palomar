@@ -5,9 +5,9 @@ echo "Bienvenido al Sistema de Gestion el Palomar"
 # Definicion de Menu principal
 while true; do
 echo -e "===Menu Principal==="
-echo -e "1) Saludar al ISPC"
-echo -e "2) Acceder al menu Procesos"
-echo -e "3) Salir"
+echo -e "1. Mostrar los procesos en ejecución."
+echo -e "2. Ingrese el ID de proceso que desea consultar"
+echo -e "3. Ingrese el ID de proceso que desea finalizar"
 echo -e
 read -p "Elija una opcion" opcion
 
@@ -15,15 +15,13 @@ read -p "Elija una opcion" opcion
         1)
             echo -e "Hola ISPC!"
             read -p "Presione enter para continuar"
+            sh ./procesos.sh mostrar
             ;;
         2)
-            echo -e "Accediendo a Procesos..."
-            
-            ./procesos.sh
+            sh ./procesos.sh consultar
             ;;
         3)
-            echo -e "Saliendo..."
-            break
+            sh ./procesos.sh eliminar
             ;;
         *)
             echo -e "Opcion invalida!"    
