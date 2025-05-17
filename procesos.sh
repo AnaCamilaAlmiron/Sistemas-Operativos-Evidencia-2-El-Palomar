@@ -1,7 +1,12 @@
 if [ "$1" = "mostrar" ]; then
   ps aux
 elif [ "$1" = "consultar" ]; then
-  echo "Elegiste la opción 2"
+  read -p "Ingrese el PID del proceso que desea consultar: " pid 
+  if ps -p "$pid" > /dev/null; then 
+    echo "El PID ingresado corresponde a un proceso activo."
+  else 
+    echo "El PID no corresponde a un proceso activo."
+  fi
 elif [ "$1" = "eliminar" ]; then
   echo "Elegiste la opción 3"
 else
