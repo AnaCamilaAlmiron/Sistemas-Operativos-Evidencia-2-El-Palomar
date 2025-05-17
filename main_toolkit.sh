@@ -13,8 +13,6 @@ read -p "Elija una opcion" opcion
 
     case $opcion in
         1)
-            echo -e "Hola ISPC!"
-            read -p "Presione enter para continuar"
             sh ./procesos.sh mostrar
             ;;
         2)

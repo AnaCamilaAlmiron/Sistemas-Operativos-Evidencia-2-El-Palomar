@@ -1,5 +1,5 @@
 if [ "$1" = "mostrar" ]; then
-  echo "Elegiste la opción 1"
+  ps aux
 elif [ "$1" = "consultar" ]; then
   echo "Elegiste la opción 2"
 elif [ "$1" = "eliminar" ]; then
