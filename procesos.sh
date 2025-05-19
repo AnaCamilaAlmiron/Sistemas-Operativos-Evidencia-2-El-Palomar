@@ -10,7 +10,7 @@ elif [ "$1" = "consultar" ]; then
     echo "El PID no corresponde a un proceso activo."
   fi
 elif [ "$1" = "eliminar" ]; then
-  echo "Elegiste la opción 3"
+  ps kill
 else
   echo "Opción no válida"
 fi

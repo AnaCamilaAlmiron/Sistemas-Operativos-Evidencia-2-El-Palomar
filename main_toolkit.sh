@@ -4,10 +4,10 @@ echo "Bienvenido al Sistema de Gestion el Palomar"
 
 # Definicion de Menu principal
 while true; do
-echo -e "===Menu Principal==="
+echo -e "=== Menu Principal ==="
 echo -e "1. Mostrar los procesos en ejecución."
-echo -e "2. Ingrese el ID de proceso que desea consultar"
-echo -e "3. Ingrese el ID de proceso que desea finalizar"
+echo -e "2. Ingrese el ID de proceso que desea consultar: "
+echo -e "3. Ingrese el ID de proceso que desea finalizar: "
 echo -e
 read -p "Elija una opcion" opcion
 
