@@ -63,3 +63,15 @@ Su funcionamiento depende del parámetro que se le pase:
 **_consultar_** → Solicita al usuario un PID y muestra información detallada del proceso si está activo.
 
 **_eliminar_** → Permite al usuario enviar una señal (como SIGTERM) a un proceso mediante su PID.
+
+## 🕊️ ¿Quienes Somos ?
+**_El Palomar  - Estudiantes del ISPC / Tecnicatura en Desarrollo de Software_**
+
+- Almiron Ana Camila
+- Aquino Marialis
+- Avila Fabrizio
+- Huallpa Carlos
+- Gonzalez Ezequiel
+
+
+<p align="center"; width=100%;"><img src="https://github.com/user-attachments/assets/38717c75-119a-4af4-ae62-02f62f49f886" alt="" width="400px" height="400px" /></p>
