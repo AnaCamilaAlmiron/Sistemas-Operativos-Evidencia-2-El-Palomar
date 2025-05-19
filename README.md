@@ -6,7 +6,7 @@
 
 ---
 
-Este programa se desarrollo con el objetivo de 
+Este programa se desarrollo con el objetivo de ayudar a una pequeña Pyme 
 
 Muchas veces sin personal técnico especializado, se necesitan soluciones simples para monitorear los sistemas operativos / realizar procesos que a priori para una persona con nulo o poco conocimiento tecnico costaria mucho.
 
@@ -14,6 +14,8 @@ Muchas veces sin personal técnico especializado, se necesitan soluciones simple
 ---
 
 ## 🤔 ¿Por que se eligio este problema / necesidad ?
+Nos parecio que este problema al cual estamos dando una solucion es algo comun en el día a día , no solo de las pymes sino tambien de pequeñas empresas o negocios. Por eso nos resulto
+llamativa , atrapante e interesante abordar esta problematica.
 
 Una buena gestión de procesos permite :
 - Detectar problemas de rendimiento o fallos en la ejecucion de los procesos
@@ -22,14 +24,18 @@ Una buena gestión de procesos permite :
 
 Automatizar esta gestión contribuye al funcionamiento óptimo de las aplicaciones.
 
-**Actualmente sigue en desarrollo el toolkit , se iran agregando cada vez mas funcionalidades para que el resultado final sea
-una herramienta eficaz,eficiente y muy util**
+>⚠️ **Nota:** Actualmente sigue en desarrollo el toolkit , se iran agregando cada vez mas funcionalidades para que el resultado final sea
+una herramienta eficaz, eficiente , versatil y muy util
 
 ## 💻 ¿ Como ejecutar el programa ?
-1. Clonar el repositorio : git clone [https://github.com/AnaCamilaAlmiron/Sistemas-Operativos-Evidencia-2-El-Palomar.git](https://github.com/AnaCamilaAlmiron/Sistemas-Operativos-Evidencia-2-El-Palomar.git)
-1. Entrar a la carpeta del repositorio : **`cd nombre-repositorio Ej : cd Sistemas-Operativos-Evidencia-2-El-Palomar`**
-1. Brindar permisos para ejecutar los scripts : **`chmod +x main_toolkit.sh procesos.sh `**
-1. Ejecutar el programa/toolkit :**` ./main_toolkit.sh`**
+1. Clonar el repositorio :
+<pre>git clone https://github.com/AnaCamilaAlmiron/Sistemas-Operativos-Evidencia-2-El-Palomar.git</pre> 
+2. Entrar a la carpeta del repositorio :
+<pre>cd nombre-repositorio Ej : cd Sistemas-Operativos-Evidencia-2-El-Palomar</pre>
+3. Brindar permisos para ejecutar los scripts :
+<pre>chmod +x main_toolkit.sh procesos.sh </pre>
+4. Ejecutar el programa/toolkit :
+<pre>./main_toolkit.sh</pre>
 
 ### 🚀 Funcionalidades - Scripts
 
