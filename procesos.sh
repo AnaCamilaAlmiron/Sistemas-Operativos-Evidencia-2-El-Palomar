@@ -1,9 +1,11 @@
 #!/bin/bash
 
 if [ "$1" = "mostrar" ]; then
+  clear
   ps aux
 
 elif [ "$1" = "consultar" ]; then
+  clear
   read -p "Ingrese el PID del proceso que desea consultar: " pid 
   if ps -p "$pid" > /dev/null; then 
     echo "El PID ingresado corresponde a un proceso activo."
@@ -14,6 +16,7 @@ elif [ "$1" = "consultar" ]; then
   fi
 
 elif [ "$1" = "eliminar" ]; then
+  clear
   read -p "Ingrese el PID del proceso que desea finalizar: " pid
   if ps -p "$pid" > /dev/null; then
     echo "¿Cómo desea finalizar el proceso?"
@@ -35,5 +38,6 @@ elif [ "$1" = "eliminar" ]; then
   fi
 
 else
+  clear
   echo "Opción no válida. Use: mostrar | consultar | eliminar"
 fi

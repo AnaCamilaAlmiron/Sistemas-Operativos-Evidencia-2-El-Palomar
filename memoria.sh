@@ -2,6 +2,7 @@
 
 # información de la memoria en macOS
 
+clear
 echo "========================================"
 echo "       INFORMACIÓN DE LA MEMORIA        "
 echo "========================================"
