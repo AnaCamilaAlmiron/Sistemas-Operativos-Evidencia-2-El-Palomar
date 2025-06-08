@@ -67,7 +67,7 @@ while true; do
   echo
   echo "1. Acceder al menú Procesos"
   echo "2. Acceder a diagnóstico de memoria"
-  echo "3. Opción acerca de disco"
+  echo "3. Acceder a diagnóstico de disco"
   echo "4. Salir"
   echo
   echo -e "${GREEN}====================================${NC}"
