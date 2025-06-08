@@ -10,17 +10,17 @@ NC='\033[0m' # Sin color
 
 # Bienvenida
 clear
-echo -e "${GREEN}=============================================${NC}"
-echo -e "${YELLOW}        SISTEMA DE GESTION EL PALOMAR        ${NC}"
-echo -e "${GREEN}=============================================${NC}"
+echo -e "${GREEN}==============================================${NC}"
+echo -e "${YELLOW}         SISTEMA DE GESTION EL PALOMAR        ${NC}"
+echo -e "${GREEN}==============================================${NC}"
 echo -e "${CYAN}"
 echo "          __                       __"
-echo "      ___( o)>                   <(o )___"
+echo -e "      ___( o)${YELLOW}>${CYAN}                   ${YELLOW}<${CYAN}(o )___"
 echo "      \\ <_. )    ~ Bienvenido!    ( ._> /"
-echo "       \`---'                       '---´"
+echo "       \`---'                       '---'"
 echo -e "${NC}"
 
-echo -e "${GREEN}Presione enter para ingresar...${NC}"
+echo -e "${GREEN}         Presione enter para ingresar...${NC}"
 read -p ""
 
 # funcion para el submenu de procesos

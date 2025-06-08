@@ -1,11 +1,17 @@
 #!/bin/bash
 
+# Definición de colores
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+NC='\033[0m' # Sin color
+
 # información de la memoria en macOS
 
 clear
-echo "========================================"
-echo "       INFORMACIÓN DE LA MEMORIA        "
-echo "========================================"
+echo -e "${GREEN}===========================================${NC}"
+echo "         INFORMACIÓN DE LA MEMORIA         "
+echo -e "${GREEN}===========================================${NC}"
 
 echo ""
 echo " -- Memoria física (RAM) -- "
